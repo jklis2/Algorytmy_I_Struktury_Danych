@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "INTEST_Enormous_Input_Test/1.0.0": {
+        "runtime": {
+          "INTEST_Enormous_Input_Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "INTEST_Enormous_Input_Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
