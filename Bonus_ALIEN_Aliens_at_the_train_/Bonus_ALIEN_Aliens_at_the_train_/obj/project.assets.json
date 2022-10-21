@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakub\\Documents\\GitHub\\Algorytmy_I_Struktury_Danych\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_.csproj",
-      "projectName": "Bonus_ALIEN_Aliens_at_the_train_",
-      "projectPath": "C:\\Users\\jakub\\Documents\\GitHub\\Algorytmy_I_Struktury_Danych\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_.csproj",
+      "projectUniqueName": "C:\\Users\\jakub\\Documents\\GitHub\\Algorytmy_I_Struktury_Danych\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train.csproj",
+      "projectName": "Bonus_ALIEN_Aliens_at_the_train",
+      "projectPath": "C:\\Users\\jakub\\Documents\\GitHub\\Algorytmy_I_Struktury_Danych\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jakub\\Documents\\GitHub\\Algorytmy_I_Struktury_Danych\\Bonus_ALIEN_Aliens_at_the_train_\\Bonus_ALIEN_Aliens_at_the_train_\\obj\\",
       "projectStyle": "PackageReference",
