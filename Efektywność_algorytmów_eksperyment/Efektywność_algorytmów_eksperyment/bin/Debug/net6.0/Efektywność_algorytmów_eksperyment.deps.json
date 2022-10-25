@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Efektywność_algorytmów_eksperyment/1.0.0": {
+        "runtime": {
+          "Efektywność_algorytmów_eksperyment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Efektywność_algorytmów_eksperyment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
