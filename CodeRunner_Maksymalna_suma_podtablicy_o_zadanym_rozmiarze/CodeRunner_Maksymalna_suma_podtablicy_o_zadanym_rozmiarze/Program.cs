@@ -9,13 +9,19 @@ namespace CodeRunner_Maksymalna_suma_podtablicy_o_zadanym_rozmiarze
             int sum = 0, p = 0;
 
             if (n == k)
+            {
                 foreach (var x in arr)
+                {
                     sum += x;
+                }    
+            } 
 
             else
             {
                 for (int i = 0; i < k; i++)
+                {
                     p += arr[i];
+                }
 
                 for (int j = 0; j < (n - k); j++)
                 {
@@ -23,7 +29,10 @@ namespace CodeRunner_Maksymalna_suma_podtablicy_o_zadanym_rozmiarze
                     p = p - arr[j] + arr[j + k];
                     sumTemp = p;
 
-                    if (sumTemp > sum) sum = sumTemp;
+                    if (sumTemp > sum) 
+                    { 
+                        sum = sumTemp; 
+                    }
                 }
             }
             return sum;
