@@ -1,0 +1,15 @@
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\bin\Debug\net6.0\BONUS_HASHIT_Hash_it.exe
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\bin\Debug\net6.0\BONUS_HASHIT_Hash_it.deps.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\bin\Debug\net6.0\BONUS_HASHIT_Hash_it.runtimeconfig.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\bin\Debug\net6.0\BONUS_HASHIT_Hash_it.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\bin\Debug\net6.0\BONUS_HASHIT_Hash_it.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.csproj.AssemblyReference.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.AssemblyInfoInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.AssemblyInfo.cs
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\refint\BONUS_HASHIT_Hash_it.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\BONUS_HASHIT_Hash_it.genruntimeconfig.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\BONUS_HASHIT_Hash_it\BONUS_HASHIT_Hash_it\obj\Debug\net6.0\ref\BONUS_HASHIT_Hash_it.dll
