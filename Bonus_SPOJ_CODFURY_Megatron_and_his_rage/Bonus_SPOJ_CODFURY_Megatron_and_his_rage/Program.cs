@@ -4,60 +4,179 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bonus_SPOJ_CODFURY_Megatron_and_his_rage
+public sealed class Bonus_SPOJ_CODFURY_Megatron_and_his_rage
 {
-    class Program
+    private Bonus_SPOJ_CODFURY_Megatron_and_his_rage(int humanCount, int stationCount)
     {
-        static void Main(string[] args)
+        HumansSeen = humanCount;
+        StationsPassed = stationCount;
+    }
+
+    public int HumansSeen { get; }
+    public int StationsPassed { get; }
+
+    public static Bonus_SPOJ_CODFURY_Megatron_and_his_rage Solve(int stationCount, int humanLimit, int[] stationHumanCounts)
+    {
+        int optimalHumansSeen = 0,
+            optimalStationsPassed = 0;
+        int humansSeen = stationHumanCounts[0],
+            stationsPassed = 1;
+        int startStation = 0,
+            endStation = 0;
+
+        while (true)
         {
-            int t = int.Parse(Console.ReadLine());
-            while (t-- > 0)
+            if (humansSeen <= humanLimit && stationsPassed > optimalStationsPassed)
             {
-                string[] input = Console.ReadLine().Split(' ');
-                int p = int.Parse(input[0]);
-                int m = int.Parse(input[1]);
-                int[] arr = new int[p + 9];
-                int flag = 0;
-                long sum = 0, max = -1, total = 99999999;
-                long[] cumu = new long[p + 9];
-                cumu[0] = 0;
-                for (int i = 1; i <= p; i++)
-                {
-                    arr[i] = int.Parse(Console.ReadLine());
-                    sum += arr[i];
-                    cumu[i] = sum;
-                }
-                int p1 = 0, p2 = 0;
-                sum = 0;
-                for (int i = 1; i <= p; i++)
-                {
-                    if (flag == 1)
-                        i--;
-                    sum = cumu[i] - cumu[p1];
-                    flag = 0;
-                    if (sum > m)
-                    {
-                        flag = 1;
-                        p1++;
-                    }
-                    if (max < (i - p1))
-                    {
-                        max = (i - p1);
-                        total = sum;
-                    }
-                    else if (max == (i - p1))
-                    {
-                        if (total > sum)
-                            total = sum;
-                    }
-                }
-                if (max == 0)
-                    total = 0;
-                if (total == 99999999)
-                    Console.WriteLine("0 0");
-                else
-                    Console.WriteLine(total + " " + max);
+                optimalHumansSeen = humansSeen;
+                optimalStationsPassed = stationsPassed;
+            }
+            else if (humansSeen < optimalHumansSeen && stationsPassed == optimalStationsPassed)
+            {
+                optimalHumansSeen = humansSeen;
+            }
+
+            if (endStation == stationCount - 1
+                || stationCount - startStation < optimalStationsPassed)
+                return new Bonus_SPOJ_CODFURY_Megatron_and_his_rage(optimalHumansSeen, optimalStationsPassed);
+
+            humansSeen += stationHumanCounts[++endStation];
+            ++stationsPassed;
+
+            while (humansSeen > humanLimit && startStation < endStation)
+            {
+                humansSeen -= stationHumanCounts[startStation++];
+                --stationsPassed;
             }
         }
+    }
+}
+
+public static class Program
+{
+    private static void Main()
+    {
+        int remainingTestCases = FastIO.ReadNonNegativeInt();
+        while (remainingTestCases-- > 0)
+        {
+            int stationCount = FastIO.ReadNonNegativeInt();
+            int humanLimit = FastIO.ReadNonNegativeInt();
+
+            int[] stationHumanCounts = new int[stationCount];
+            for (int s = 0; s < stationCount; ++s)
+            {
+                stationHumanCounts[s] = FastIO.ReadNonNegativeInt();
+            }
+
+            var solution = Bonus_SPOJ_CODFURY_Megatron_and_his_rage.Solve(stationCount, humanLimit, stationHumanCounts);
+
+            FastIO.WriteNonNegativeInt(solution.HumansSeen);
+            FastIO.WriteSpace();
+            FastIO.WriteNonNegativeInt(solution.StationsPassed);
+            FastIO.WriteLine();
+        }
+
+        FastIO.Flush();
+    }
+}
+
+public static class FastIO
+{
+    private const byte _null = (byte)'\0';
+    private const byte _space = (byte)' ';
+    private const byte _newLine = (byte)'\n';
+    private const byte _minusSign = (byte)'-';
+    private const byte _zero = (byte)'0';
+    private const int _inputBufferLimit = 8192;
+    private const int _outputBufferLimit = 8192;
+
+    private static readonly Stream _inputStream = Console.OpenStandardInput();
+    private static readonly byte[] _inputBuffer = new byte[_inputBufferLimit];
+    private static int _inputBufferSize = 0;
+    private static int _inputBufferIndex = 0;
+
+    private static readonly Stream _outputStream = Console.OpenStandardOutput();
+    private static readonly byte[] _outputBuffer = new byte[_outputBufferLimit];
+    private static readonly byte[] _digitsBuffer = new byte[11];
+    private static int _outputBufferSize = 0;
+
+    private static byte ReadByte()
+    {
+        if (_inputBufferIndex == _inputBufferSize)
+        {
+            _inputBufferIndex = 0;
+            _inputBufferSize = _inputStream.Read(_inputBuffer, 0, _inputBufferLimit);
+            if (_inputBufferSize == 0)
+                return _null;
+        }
+
+        return _inputBuffer[_inputBufferIndex++];
+    }
+
+    public static int ReadNonNegativeInt()
+    {
+        byte digit;
+
+        do
+        {
+            digit = ReadByte();
+        }
+        while (digit < _minusSign);
+
+        int result = digit - _zero;
+        while (true)
+        {
+            digit = ReadByte();
+            if (digit < _zero) break;
+            result = result * 10 + (digit - _zero);
+        }
+
+        return result;
+    }
+
+    public static void WriteNonNegativeInt(int value)
+    {
+        int digitCount = 0;
+        do
+        {
+            int digit = value % 10;
+            _digitsBuffer[digitCount++] = (byte)(digit + _zero);
+            value /= 10;
+        } while (value > 0);
+
+        if (_outputBufferSize + digitCount > _outputBufferLimit)
+        {
+            _outputStream.Write(_outputBuffer, 0, _outputBufferSize);
+            _outputBufferSize = 0;
+        }
+
+        while (digitCount > 0)
+        {
+            _outputBuffer[_outputBufferSize++] = _digitsBuffer[--digitCount];
+        }
+    }
+
+    private static void WriteByte(byte @byte)
+    {
+        if (_outputBufferSize == _outputBufferLimit)
+        {
+            _outputStream.Write(_outputBuffer, 0, _outputBufferSize);
+            _outputBufferSize = 0;
+        }
+
+        _outputBuffer[_outputBufferSize++] = @byte;
+    }
+
+    public static void WriteSpace()
+        => WriteByte(_space);
+
+    public static void WriteLine()
+        => WriteByte(_newLine);
+
+    public static void Flush()
+    {
+        _outputStream.Write(_outputBuffer, 0, _outputBufferSize);
+        _outputBufferSize = 0;
+        _outputStream.Flush();
     }
 }
