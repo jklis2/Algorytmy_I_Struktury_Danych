@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bonus_SPOJ_KOIREP_Representatives
 build_property.ProjectDir = C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_KOIREP_Representatives\Bonus_SPOJ_KOIREP_Representatives\
