@@ -221,3 +221,34 @@ public static void RemoveAllDuplicatesFromSortedLinkedList<T>(ref Node<T> head)
 
 
 
+                    //Zadanie 8//
+
+/*
+
+public static void DistinctElementsInLinkedList<T>(ref Node<T> head)
+    where T : IEquatable<T>, IComparable<T>
+{
+    Node<T> ptr1 = null, ptr2 = null;
+    ptr1 = head;
+
+    while (ptr1 != null && ptr1.Next != null)
+    {
+        ptr2 = ptr1;
+
+        while (ptr2.Next != null)
+        {
+            if (ptr1.Data.Equals(ptr2.Next.Data))
+            {
+                ptr2.Next = ptr2.Next.Next;
+            }
+            else
+            {
+                ptr2 = ptr2.Next;
+            }
+        }
+
+        ptr1 = ptr1.Next;
+    }
+}
+
+*/
