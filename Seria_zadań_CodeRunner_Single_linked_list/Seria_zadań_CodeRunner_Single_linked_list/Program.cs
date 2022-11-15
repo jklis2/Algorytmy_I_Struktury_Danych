@@ -1,13 +1,16 @@
-﻿     //Zadanie 1//
+﻿                //Zadanie 1//
 
 /*
 
-Console.Write("head -> ");
-while (head != null)
+public static void PrintSingleLinkedList<T>( Node<T> head )
 {
-    Console.Write(head);
-    head = head.Next;
+    Console.Write("head -> ");
+    while (head != null)
+    {
+        Console.Write(head);
+        head = head.Next;
+    }
+    Console.Write("null");
 }
-Console.Write("null");
 
 */
