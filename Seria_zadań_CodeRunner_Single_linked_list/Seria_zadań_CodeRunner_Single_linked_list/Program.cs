@@ -94,3 +94,25 @@ public static void AddAtEndOfSingleLinkedList<T>(T element, ref Node<T> head)
 
 
 
+                    //Zadanie 4//
+
+/*
+
+public static Node<T> ReverseSingleLinkedList<T>(Node<T> head)
+{
+    Node<T> prev = null, current = head, next = null;
+    while (current != null)
+    {
+        next = current.Next;
+        current.Next = prev;
+        prev = current;
+        current = next;
+    }
+    head = prev;
+    return head;
+}
+
+*/
+
+
+
