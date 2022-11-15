@@ -146,3 +146,36 @@ public static void MoveLastNodeToFront<T>(ref Node<T> head)
 
 
 
+                    //Zadanie 6//
+
+/*
+
+public static void RemoveNodeAt<T>(int position, ref Node<T> head)
+{
+    if (head == null)
+        return;
+
+    Node<T> temp = head;
+
+    if (position == 0)
+    {
+        head = temp.Next;
+        return;
+    }
+
+    for (int i = 0; temp != null && i < position - 1;
+         i++)
+        temp = temp.Next;
+
+    if (temp == null || temp.Next == null)
+        return;
+
+    Node<T> next = temp.Next.Next;
+
+    temp.Next = next;
+}
+
+*/
+
+
+
