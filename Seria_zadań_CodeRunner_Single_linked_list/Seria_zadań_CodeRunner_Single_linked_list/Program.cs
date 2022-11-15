@@ -44,3 +44,53 @@ public static void AddAtEndOfSingleLinkedList<T>(T element, ref Node<T> head)
 }
 
 */
+
+
+
+                    //Zadanie 3//
+
+/*
+
+public static Node<T> CreateSingleLinkedList<T>(params T[] arr)
+{
+    Node<T> node = null;
+    if (arr != null)
+    {
+        for (int i = 0; i < arr.Length; i++)
+        {
+            AddAtEndOfSingleLinkedList(arr[i], ref node);
+        }
+    }
+    else
+    {
+        node = null;
+    }
+
+    return node;
+}
+
+public static void AddAtEndOfSingleLinkedList<T>(T element, ref Node<T> head)
+{
+    Node<T> newitem = new Node<T>(element);
+    newitem.Data = element;
+    if (head == null)
+    {
+        head = newitem;
+        head.Next = null;
+    }
+    else
+    {
+        Node<T> current = head;
+        while (current.Next != null)
+        {
+            current = current.Next;
+        }
+
+        current.Next = newitem;
+    }
+}
+
+*/
+
+
+
