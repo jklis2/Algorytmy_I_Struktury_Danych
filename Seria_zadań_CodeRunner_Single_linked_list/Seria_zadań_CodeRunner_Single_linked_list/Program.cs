@@ -179,3 +179,45 @@ public static void RemoveNodeAt<T>(int position, ref Node<T> head)
 
 
 
+                    //Zadanie 7//
+
+/*
+
+public static void RemoveAllDuplicatesFromSortedLinkedList<T>(ref Node<T> head)
+    where T : IEquatable<T>, IComparable<T>
+{
+    if (head != null)
+    {
+        Node<T> dummy = new Node<T>(head.Data);
+
+        dummy.Next = head;
+        Node<T> prev = dummy;
+        Node<T> current = head;
+
+        while (current != null)
+        {
+            while (current.Next != null &&
+                   Equals(prev.Next.Data, current.Next.Data))
+                current = current.Next;
+
+            if (prev.Next == current)
+                prev = prev.Next;
+
+            else
+                prev.Next = current.Next;
+
+            current = current.Next;
+        }
+
+        head = dummy.Next;
+    }
+    else
+    {
+        head = null;
+    }
+}
+
+*/
+
+
+
