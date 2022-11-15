@@ -122,18 +122,8 @@ public static Node<T> ReverseSingleLinkedList<T>(Node<T> head)
 
 public static void MoveLastNodeToFront<T>(ref Node<T> head)
 {
-    Node<T> prev = null, current = head, next = null;
-    while (current != null)
-    {
-        next = current.Next;
-        current.Next = prev;
-        prev = current;
-        current = next;
-    }
-    head = prev;
-    return head;
     if (head == null ||
-                    head.Next == null)
+                head.Next == null)
         return;
 
     Node<T> secLast = null;
