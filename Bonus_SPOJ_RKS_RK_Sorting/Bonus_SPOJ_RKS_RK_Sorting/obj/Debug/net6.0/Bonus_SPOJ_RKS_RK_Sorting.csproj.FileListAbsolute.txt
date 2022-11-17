@@ -1,0 +1,15 @@
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\bin\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.exe
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\bin\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.deps.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\bin\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.runtimeconfig.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\bin\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\bin\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.csproj.AssemblyReference.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.AssemblyInfoInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.AssemblyInfo.cs
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\refint\Bonus_SPOJ_RKS_RK_Sorting.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\Bonus_SPOJ_RKS_RK_Sorting.genruntimeconfig.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_RKS_RK_Sorting\Bonus_SPOJ_RKS_RK_Sorting\obj\Debug\net6.0\ref\Bonus_SPOJ_RKS_RK_Sorting.dll
