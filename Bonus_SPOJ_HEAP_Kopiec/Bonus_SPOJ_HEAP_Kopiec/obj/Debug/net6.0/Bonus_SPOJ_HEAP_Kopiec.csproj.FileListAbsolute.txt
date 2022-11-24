@@ -1,0 +1,15 @@
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\bin\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.exe
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\bin\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.deps.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\bin\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.runtimeconfig.json
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\bin\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\bin\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.csproj.AssemblyReference.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.AssemblyInfoInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.AssemblyInfo.cs
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\refint\Bonus_SPOJ_HEAP_Kopiec.dll
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.pdb
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\Bonus_SPOJ_HEAP_Kopiec.genruntimeconfig.cache
+C:\Users\jakub\Documents\GitHub\Algorytmy_I_Struktury_Danych\Bonus_SPOJ_HEAP_Kopiec\Bonus_SPOJ_HEAP_Kopiec\obj\Debug\net6.0\ref\Bonus_SPOJ_HEAP_Kopiec.dll
