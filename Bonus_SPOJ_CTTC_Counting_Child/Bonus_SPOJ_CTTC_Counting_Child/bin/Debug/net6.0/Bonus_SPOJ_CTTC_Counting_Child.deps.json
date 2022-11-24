@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bonus_SPOJ_CTTC_Counting_Child/1.0.0": {
+        "runtime": {
+          "Bonus_SPOJ_CTTC_Counting_Child.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bonus_SPOJ_CTTC_Counting_Child/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
