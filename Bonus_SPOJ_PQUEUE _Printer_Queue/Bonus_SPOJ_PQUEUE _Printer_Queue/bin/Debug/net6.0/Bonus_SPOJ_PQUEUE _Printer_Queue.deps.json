@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bonus_SPOJ_PQUEUE _Printer_Queue/1.0.0": {
+        "runtime": {
+          "Bonus_SPOJ_PQUEUE _Printer_Queue.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bonus_SPOJ_PQUEUE _Printer_Queue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
