@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus_SPOJ_NICEBTRE_Nice_Binary_Trees", "Bonus_SPOJ_NICEBTRE_Nice_Binary_Trees\Bonus_SPOJ_NICEBTRE_Nice_Binary_Trees.csproj", "{20D5F7CA-D49D-416B-A76D-C5EE26FB537E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D5F7CA-D49D-416B-A76D-C5EE26FB537E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D5F7CA-D49D-416B-A76D-C5EE26FB537E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D5F7CA-D49D-416B-A76D-C5EE26FB537E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D5F7CA-D49D-416B-A76D-C5EE26FB537E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C84A7D2-7CB5-45C5-A815-825CB78B9140}
+	EndGlobalSection
+EndGlobal
