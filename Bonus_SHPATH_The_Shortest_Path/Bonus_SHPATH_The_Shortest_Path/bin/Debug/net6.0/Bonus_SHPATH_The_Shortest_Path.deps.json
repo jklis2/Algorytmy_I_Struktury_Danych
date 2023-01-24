@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bonus_SHPATH_The_Shortest_Path/1.0.0": {
+        "runtime": {
+          "Bonus_SHPATH_The_Shortest_Path.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bonus_SHPATH_The_Shortest_Path/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
